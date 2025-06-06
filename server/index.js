@@ -20,7 +20,7 @@ const app = express();
 const server = createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: process.env.NODE_ENV === 'production' ? false : "http://localhost:5173",
+    origin: process.env.NODE_ENV === 'production' ? false : "https://apx-nt5z.onrender.com",
     methods: ["GET", "POST", "PUT", "DELETE"]
   }
 });
