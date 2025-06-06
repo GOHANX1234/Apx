@@ -1,0 +1,32 @@
+[
+  {
+    "id": "e6a53fb1-1ad8-45ff-b315-b19893d8de82",
+    "username": "Gohan",
+    "email": "mohansuchil4@gmail.com",
+    "password": "$2a$10$VA0xO5//PU73eLY54ibcDeMDHi8A1uOVjOJCaWSSkVRFCX59I9oWm",
+    "name": "Gohan",
+    "bio": "I'm gohan",
+    "avatar": "/uploads/b5519908-c056-4139-ad8a-623bc61dff8d-1000150738.jpg",
+    "banner": "/uploads/564e746a-d9b2-42ba-96a4-e38a04d423c8-1000150738.jpg",
+    "links": [
+      "https://xxx.com"
+    ],
+    "createdAt": "2025-06-06T10:09:15.254Z",
+    "isOnline": true,
+    "lastSeen": "2025-06-06T10:24:41.616Z"
+  },
+  {
+    "id": "0d0b5313-e22a-4d02-ad6d-2874706ed5cf",
+    "username": "Priyanuj",
+    "email": "ownermatrixm@gmail.com",
+    "password": "$2a$10$K8IOsr6Qnux/aQL144Q7ZOOzhJGrnIZ5rEoEIg/8Q5QjqSH2GG4Uq",
+    "name": "Priyanuj",
+    "bio": "",
+    "avatar": "",
+    "banner": "",
+    "links": [],
+    "createdAt": "2025-06-06T10:09:57.530Z",
+    "isOnline": true,
+    "lastSeen": "2025-06-06T10:24:54.296Z"
+  }
+]

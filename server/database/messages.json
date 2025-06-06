@@ -1,0 +1,39 @@
+[
+  {
+    "id": "3233bb8e-1b4b-4415-a493-2b5eb6f01381",
+    "senderId": "0d0b5313-e22a-4d02-ad6d-2874706ed5cf",
+    "receiverId": "e6a53fb1-1ad8-45ff-b315-b19893d8de82",
+    "content": "Hi",
+    "type": "text",
+    "createdAt": "2025-06-06T10:10:30.550Z",
+    "updatedAt": "2025-06-06T10:10:30.550Z",
+    "reactions": [],
+    "replies": [],
+    "isEdited": false
+  },
+  {
+    "id": "c854e5a1-d2ed-4690-9e49-3c38b34899cc",
+    "senderId": "e6a53fb1-1ad8-45ff-b315-b19893d8de82",
+    "receiverId": "0d0b5313-e22a-4d02-ad6d-2874706ed5cf",
+    "content": "😄",
+    "type": "text",
+    "createdAt": "2025-06-06T10:11:21.598Z",
+    "updatedAt": "2025-06-06T10:11:21.598Z",
+    "reactions": [],
+    "replies": [],
+    "isEdited": false
+  },
+  {
+    "id": "f9cebaff-855c-4725-9684-3854ade33d61",
+    "senderId": "0d0b5313-e22a-4d02-ad6d-2874706ed5cf",
+    "receiverId": "e6a53fb1-1ad8-45ff-b315-b19893d8de82",
+    "content": "",
+    "type": "image",
+    "fileUrl": "/uploads/3b56ac9b-5213-482b-a3f1-8180cfbbad73-Screenshot_2025-06-04-21-12-58-33_948cd9899890cbd5c2798760b2b95377.jpg",
+    "createdAt": "2025-06-06T10:25:18.367Z",
+    "updatedAt": "2025-06-06T10:25:18.367Z",
+    "reactions": [],
+    "replies": [],
+    "isEdited": false
+  }
+]
