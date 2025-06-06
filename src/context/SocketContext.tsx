@@ -31,7 +31,7 @@ export const SocketProvider: React.FC<{ children: React.ReactNode }> = ({ childr
 
   useEffect(() => {
     if (user) {
-      const newSocket = io('http://localhost:3001');
+      const newSocket = io('https://apx-nt5z.onrender.com');
       setSocket(newSocket);
 
       newSocket.emit('join', user.id);
