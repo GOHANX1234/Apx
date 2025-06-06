@@ -79,7 +79,7 @@ const ChatInput: React.FC<ChatInputProps> = ({ receiverId }) => {
     formData.append('file', file);
 
     try {
-      const response = await fetch('http://localhost:3001/api/upload', {
+      const response = await fetch('https://apx-nt5z.onrender.com/api/upload', {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${token}`,

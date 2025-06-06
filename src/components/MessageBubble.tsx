@@ -69,7 +69,7 @@ const MessageBubble: React.FC<MessageBubbleProps> = ({ message, user }) => {
               <div className="space-y-2">
                 {message.content && <p className="text-sm">{message.content}</p>}
                 <img
-                  src={`http://localhost:3001${message.fileUrl}`}
+                  src={`https://apx-nt5z.onrender.com${message.fileUrl}`}
                   alt="Image"
                   className="rounded-lg max-w-full h-auto"
                 />

@@ -36,7 +36,7 @@ const UserProfile: React.FC<UserProfileProps> = ({ user, onClose }) => {
           <div className="h-32 bg-gradient-to-r from-purple-500 to-pink-500 rounded-t-2xl relative">
             {user.banner && (
               <img
-                src={`http://localhost:3001${user.banner}`}
+                src={`https://apx-nt5z.onrender.com${user.banner}`}
                 alt="Banner"
                 className="w-full h-full object-cover rounded-t-2xl"
               />
@@ -55,7 +55,7 @@ const UserProfile: React.FC<UserProfileProps> = ({ user, onClose }) => {
               <div className="w-24 h-24 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white text-2xl font-bold border-4 border-gray-800">
                 {user.avatar ? (
                   <img
-                    src={`http://localhost:3001${user.avatar}`}
+                    src={`https://apx-nt5z.onrender.com${user.avatar}`}
                     alt={user.name}
                     className="w-full h-full rounded-full object-cover"
                   />

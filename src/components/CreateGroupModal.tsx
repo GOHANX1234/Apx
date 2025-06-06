@@ -23,7 +23,7 @@ const CreateGroupModal: React.FC<CreateGroupModalProps> = ({ onClose, onCreateGr
 
   const fetchUsers = async () => {
     try {
-      const response = await fetch('http://localhost:3001/api/users', {
+      const response = await fetch('https://apx-nt5z.onrender.com/api/users', {
         headers: {
           'Authorization': `Bearer ${token}`,
         },
@@ -145,7 +145,7 @@ const CreateGroupModal: React.FC<CreateGroupModalProps> = ({ onClose, onCreateGr
                   <div className="w-10 h-10 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white font-medium">
                     {user.avatar ? (
                       <img
-                        src={`http://localhost:3001${user.avatar}`}
+                        src={`https://apx-nt5z.onrender.com${user.avatar}`}
                         alt={user.name}
                         className="w-full h-full rounded-full object-cover"
                       />
