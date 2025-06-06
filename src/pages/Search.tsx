@@ -25,7 +25,7 @@ const Search: React.FC = () => {
   const searchUsers = async () => {
     setLoading(true);
     try {
-      const response = await fetch(`http://localhost:3001/api/users/search?q=${encodeURIComponent(searchTerm)}`, {
+      const response = await fetch(`https://apx-nt5z.onrender.com/api/users/search?q=${encodeURIComponent(searchTerm)}`, {
         headers: {
           'Authorization': `Bearer ${token}`,
         },
@@ -101,7 +101,7 @@ const Search: React.FC = () => {
                     <div className="w-12 h-12 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white font-medium text-lg">
                       {user.avatar ? (
                         <img
-                          src={`http://localhost:3001${user.avatar}`}
+                          src={`https://apx-nt5z.onrender.com/api/users/search?q=${user.avatar}`}
                           alt={user.name}
                           className="w-full h-full rounded-full object-cover"
                         />

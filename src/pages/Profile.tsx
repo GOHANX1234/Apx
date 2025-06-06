@@ -42,7 +42,7 @@ const Profile: React.FC = () => {
     formData.append('file', file);
 
     try {
-      const response = await fetch('http://localhost:3001/api/upload', {
+      const response = await fetch('https://apx-nt5z.onrender.com/api/upload', {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${token}`,
@@ -90,7 +90,7 @@ const Profile: React.FC = () => {
       <div className="relative h-48 bg-gradient-to-r from-purple-500 to-pink-500">
         {user.banner && (
           <img
-            src={`http://localhost:3001${user.banner}`}
+            src={`https://apx-nt5z.onrender.com${user.banner}`}
             alt="Banner"
             className="w-full h-full object-cover"
           />
@@ -121,7 +121,7 @@ const Profile: React.FC = () => {
           <div className="w-32 h-32 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white text-4xl font-bold border-4 border-gray-800">
             {user.avatar ? (
               <img
-                src={`http://localhost:3001${user.avatar}`}
+                src={`https://apx-nt5z.onrender.com${user.avatar}`}
                 alt={user.name}
                 className="w-full h-full rounded-full object-cover"
               />

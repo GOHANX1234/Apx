@@ -29,7 +29,7 @@ const Groups: React.FC = () => {
 
   const fetchGroups = async () => {
     try {
-      const response = await fetch('http://localhost:3001/api/groups', {
+      const response = await fetch('https://apx-nt5z.onrender.com/api/groups', {
         headers: {
           'Authorization': `Bearer ${token}`,
         },
@@ -49,7 +49,7 @@ const Groups: React.FC = () => {
 
   const handleCreateGroup = async (name: string, members: string[]) => {
     try {
-      const response = await fetch('http://localhost:3001/api/groups', {
+      const response = await fetch('https://apx-nt5z.onrender.com/api/groups', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -73,7 +73,7 @@ const Groups: React.FC = () => {
     if (!confirm('Are you sure you want to delete this group?')) return;
 
     try {
-      const response = await fetch(`http://localhost:3001/api/groups/${groupId}`, {
+      const response = await fetch(`https://apx-nt5z.onrender.com/api/groups/${groupId}`, {
         method: 'DELETE',
         headers: {
           'Authorization': `Bearer ${token}`,
@@ -147,7 +147,7 @@ const Groups: React.FC = () => {
                     <div className="w-12 h-12 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white font-medium text-lg">
                       {group.avatar ? (
                         <img
-                          src={`http://localhost:3001${group.avatar}`}
+                          src={`https://apx-nt5z.onrender.com${group.avatar}`}
                           alt={group.name}
                           className="w-full h-full rounded-full object-cover"
                         />

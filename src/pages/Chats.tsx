@@ -57,7 +57,7 @@ const Chats: React.FC = () => {
 
   const fetchConversations = async () => {
     try {
-      const response = await fetch('http://localhost:3001/api/conversations', {
+      const response = await fetch('https://apx-nt5z.onrender.com/api/conversations', {
         headers: {
           'Authorization': `Bearer ${token}`,
         },
@@ -84,7 +84,7 @@ const Chats: React.FC = () => {
   const searchUsers = async () => {
     setSearching(true);
     try {
-      const response = await fetch(`http://localhost:3001/api/users/search?q=${encodeURIComponent(searchTerm)}`, {
+      const response = await fetch(`https://apx-nt5z.onrender.com/api/users/search?q=${encodeURIComponent(searchTerm)}`, {
         headers: {
           'Authorization': `Bearer ${token}`,
         },
@@ -185,7 +185,7 @@ const Chats: React.FC = () => {
                       <div className="w-12 h-12 rounded-full bg-gradient-to-br from-emerald-500 to-blue-500 flex items-center justify-center text-white font-medium text-lg">
                         {user.avatar ? (
                           <img
-                            src={`http://localhost:3001${user.avatar}`}
+                            src={`https://apx-nt5z.onrender.com${user.avatar}`}
                             alt={user.name}
                             className="w-full h-full rounded-full object-cover"
                           />
@@ -240,7 +240,7 @@ const Chats: React.FC = () => {
                     <div className="w-12 h-12 rounded-full bg-gradient-to-br from-emerald-500 to-blue-500 flex items-center justify-center text-white font-medium text-lg">
                       {conversation.user?.avatar ? (
                         <img
-                          src={`http://localhost:3001${conversation.user.avatar}`}
+                          src={`https://apx-nt5z.onrender.com${conversation.user.avatar}`}
                           alt={conversation.user.name}
                           className="w-full h-full rounded-full object-cover"
                         />
